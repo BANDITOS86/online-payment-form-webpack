@@ -1,0 +1,10 @@
+@import 'libs/normalize';
+// @import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import './style/fonts';
+@import './style/var';
+@import 'style/settings';
+@import './style/style';
+
+body {
+  background-color: red;
+}
