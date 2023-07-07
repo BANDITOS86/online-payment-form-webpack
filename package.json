@@ -7,6 +7,7 @@
     "start": "npx webpack serve --hot",
     "dev": "webpack",
     "build": "webpack --node-env=production",
+    "deploy": "gh-pages -d dist",
     "clear": "rd /s /q dist",
     "test": "jest"
   },
@@ -24,6 +25,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^27.2.1",
     "eslint-plugin-prettier": "^4.2.1",
+    "gh-pages": "^5.0.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.1",
     "image-webpack-loader": "^8.1.0",
